@@ -3,6 +3,7 @@ export const symbols = {
   facetMembers: Symbol("facilityFacetMembers"),
   parentContainer: Symbol("facilityParentContainer"),
   facetByFacetClassName: Symbol("facilityFacetByFacetClassName"),
+  patches: Symbol("facilityPatches"),
 };
 
 export function symbolName(symbol) {

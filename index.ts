@@ -7,6 +7,12 @@ export {
   isDataMember,
   getDataMemberNames,
 } from "./lib/data";
+export {
+  mapData,
+  mapDatas,
+  patchFacet,
+  getPatchedMemberNames,
+} from "./lib/patch";
 export { options } from "./internal/options";
 export { operation, async_opn } from "./lib/operation";
 export { facet, registerFacets, get } from "./lib/facet";
